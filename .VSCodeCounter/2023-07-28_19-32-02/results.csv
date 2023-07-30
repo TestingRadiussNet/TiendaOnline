@@ -1,0 +1,25 @@
+"filename", "language", "JavaScript JSX", "XML", "JavaScript", "CSS", "comment", "blank", "total"
+"/Users/raxel/Projects/Escalante-RadiussNet/Webapp/radiuss-net-shop/src/App.css", "CSS", 0, 0, 0, 0, 0, 1, 1
+"/Users/raxel/Projects/Escalante-RadiussNet/Webapp/radiuss-net-shop/src/App.jsx", "JavaScript JSX", 42, 0, 0, 0, 0, 8, 50
+"/Users/raxel/Projects/Escalante-RadiussNet/Webapp/radiuss-net-shop/src/assets/react.svg", "XML", 0, 1, 0, 0, 0, 0, 1
+"/Users/raxel/Projects/Escalante-RadiussNet/Webapp/radiuss-net-shop/src/components/Esperando.jsx", "JavaScript JSX", 9, 0, 0, 0, 0, 2, 11
+"/Users/raxel/Projects/Escalante-RadiussNet/Webapp/radiuss-net-shop/src/containers/ContenedorPrivado.jsx", "JavaScript JSX", 34, 0, 0, 0, 0, 7, 41
+"/Users/raxel/Projects/Escalante-RadiussNet/Webapp/radiuss-net-shop/src/containers/ContenedorPublico.jsx", "JavaScript JSX", 15, 0, 0, 0, 0, 7, 22
+"/Users/raxel/Projects/Escalante-RadiussNet/Webapp/radiuss-net-shop/src/contexts/AutenticacionContext.jsx", "JavaScript JSX", 53, 0, 0, 0, 0, 8, 61
+"/Users/raxel/Projects/Escalante-RadiussNet/Webapp/radiuss-net-shop/src/contexts/CarritoContext.jsx", "JavaScript JSX", 89, 0, 0, 0, 0, 22, 111
+"/Users/raxel/Projects/Escalante-RadiussNet/Webapp/radiuss-net-shop/src/contexts/DetallesCompraContext.jsx", "JavaScript JSX", 15, 0, 0, 0, 0, 5, 20
+"/Users/raxel/Projects/Escalante-RadiussNet/Webapp/radiuss-net-shop/src/global/api.js", "JavaScript", 0, 0, 1, 0, 0, 0, 1
+"/Users/raxel/Projects/Escalante-RadiussNet/Webapp/radiuss-net-shop/src/hooks/autenticacion-hook.js", "JavaScript", 0, 0, 6, 0, 0, 2, 8
+"/Users/raxel/Projects/Escalante-RadiussNet/Webapp/radiuss-net-shop/src/hooks/carrito-hook.js", "JavaScript", 0, 0, 6, 0, 0, 2, 8
+"/Users/raxel/Projects/Escalante-RadiussNet/Webapp/radiuss-net-shop/src/hooks/detalles-compra-hook.js", "JavaScript", 0, 0, 6, 0, 0, 2, 8
+"/Users/raxel/Projects/Escalante-RadiussNet/Webapp/radiuss-net-shop/src/index.css", "CSS", 0, 0, 0, 3, 0, 0, 3
+"/Users/raxel/Projects/Escalante-RadiussNet/Webapp/radiuss-net-shop/src/main.jsx", "JavaScript JSX", 9, 0, 0, 0, 0, 2, 11
+"/Users/raxel/Projects/Escalante-RadiussNet/Webapp/radiuss-net-shop/src/views/private/Carrito.jsx", "JavaScript JSX", 61, 0, 0, 0, 0, 6, 67
+"/Users/raxel/Projects/Escalante-RadiussNet/Webapp/radiuss-net-shop/src/views/private/Contratar.jsx", "JavaScript JSX", 118, 0, 0, 0, 0, 18, 136
+"/Users/raxel/Projects/Escalante-RadiussNet/Webapp/radiuss-net-shop/src/views/private/Inicio.jsx", "JavaScript JSX", 109, 0, 0, 0, 0, 18, 127
+"/Users/raxel/Projects/Escalante-RadiussNet/Webapp/radiuss-net-shop/src/views/private/Perfil.jsx", "JavaScript JSX", 108, 0, 0, 0, 0, 11, 119
+"/Users/raxel/Projects/Escalante-RadiussNet/Webapp/radiuss-net-shop/src/views/private/ProductoInfo.jsx", "JavaScript JSX", 94, 0, 0, 0, 0, 16, 110
+"/Users/raxel/Projects/Escalante-RadiussNet/Webapp/radiuss-net-shop/src/views/public/CrearCuenta.jsx", "JavaScript JSX", 80, 0, 0, 0, 0, 17, 97
+"/Users/raxel/Projects/Escalante-RadiussNet/Webapp/radiuss-net-shop/src/views/public/Login.jsx", "JavaScript JSX", 50, 0, 0, 0, 0, 15, 65
+"/Users/raxel/Projects/Escalante-RadiussNet/Webapp/radiuss-net-shop/src/views/public/Recuperar.jsx", "JavaScript JSX", 42, 0, 0, 0, 0, 14, 56
+"Total", "-", 928, 1, 19, 3, 0, 183, 1134

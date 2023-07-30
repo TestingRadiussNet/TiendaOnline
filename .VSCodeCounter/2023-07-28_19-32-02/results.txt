@@ -1,0 +1,60 @@
+Date : 2023-07-28 19:32:02
+Directory : /Users/raxel/Projects/Escalante-RadiussNet/Webapp/radiuss-net-shop/src
+Total : 23 files,  951 codes, 0 comments, 183 blanks, all 1134 lines
+
+Languages
++----------------+------------+------------+------------+------------+------------+
+| language       | files      | code       | comment    | blank      | total      |
++----------------+------------+------------+------------+------------+------------+
+| JavaScript JSX |         16 |        928 |          0 |        176 |      1,104 |
+| JavaScript     |          4 |         19 |          0 |          6 |         25 |
+| CSS            |          2 |          3 |          0 |          1 |          4 |
+| XML            |          1 |          1 |          0 |          0 |          1 |
++----------------+------------+------------+------------+------------+------------+
+
+Directories
++-----------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                      | files      | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                         |         23 |        951 |          0 |        183 |      1,134 |
+| . (Files)                                                                                                 |          4 |         54 |          0 |         11 |         65 |
+| assets                                                                                                    |          1 |          1 |          0 |          0 |          1 |
+| components                                                                                                |          1 |          9 |          0 |          2 |         11 |
+| containers                                                                                                |          2 |         49 |          0 |         14 |         63 |
+| contexts                                                                                                  |          3 |        157 |          0 |         35 |        192 |
+| global                                                                                                    |          1 |          1 |          0 |          0 |          1 |
+| hooks                                                                                                     |          3 |         18 |          0 |          6 |         24 |
+| views                                                                                                     |          8 |        662 |          0 |        115 |        777 |
+| views/private                                                                                             |          5 |        490 |          0 |         69 |        559 |
+| views/public                                                                                              |          3 |        172 |          0 |         46 |        218 |
++-----------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-----------------------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| filename                                                                                                  | language       | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| /Users/raxel/Projects/Escalante-RadiussNet/Webapp/radiuss-net-shop/src/App.css                            | CSS            |          0 |          0 |          1 |          1 |
+| /Users/raxel/Projects/Escalante-RadiussNet/Webapp/radiuss-net-shop/src/App.jsx                            | JavaScript JSX |         42 |          0 |          8 |         50 |
+| /Users/raxel/Projects/Escalante-RadiussNet/Webapp/radiuss-net-shop/src/assets/react.svg                   | XML            |          1 |          0 |          0 |          1 |
+| /Users/raxel/Projects/Escalante-RadiussNet/Webapp/radiuss-net-shop/src/components/Esperando.jsx           | JavaScript JSX |          9 |          0 |          2 |         11 |
+| /Users/raxel/Projects/Escalante-RadiussNet/Webapp/radiuss-net-shop/src/containers/ContenedorPrivado.jsx   | JavaScript JSX |         34 |          0 |          7 |         41 |
+| /Users/raxel/Projects/Escalante-RadiussNet/Webapp/radiuss-net-shop/src/containers/ContenedorPublico.jsx   | JavaScript JSX |         15 |          0 |          7 |         22 |
+| /Users/raxel/Projects/Escalante-RadiussNet/Webapp/radiuss-net-shop/src/contexts/AutenticacionContext.jsx  | JavaScript JSX |         53 |          0 |          8 |         61 |
+| /Users/raxel/Projects/Escalante-RadiussNet/Webapp/radiuss-net-shop/src/contexts/CarritoContext.jsx        | JavaScript JSX |         89 |          0 |         22 |        111 |
+| /Users/raxel/Projects/Escalante-RadiussNet/Webapp/radiuss-net-shop/src/contexts/DetallesCompraContext.jsx | JavaScript JSX |         15 |          0 |          5 |         20 |
+| /Users/raxel/Projects/Escalante-RadiussNet/Webapp/radiuss-net-shop/src/global/api.js                      | JavaScript     |          1 |          0 |          0 |          1 |
+| /Users/raxel/Projects/Escalante-RadiussNet/Webapp/radiuss-net-shop/src/hooks/autenticacion-hook.js        | JavaScript     |          6 |          0 |          2 |          8 |
+| /Users/raxel/Projects/Escalante-RadiussNet/Webapp/radiuss-net-shop/src/hooks/carrito-hook.js              | JavaScript     |          6 |          0 |          2 |          8 |
+| /Users/raxel/Projects/Escalante-RadiussNet/Webapp/radiuss-net-shop/src/hooks/detalles-compra-hook.js      | JavaScript     |          6 |          0 |          2 |          8 |
+| /Users/raxel/Projects/Escalante-RadiussNet/Webapp/radiuss-net-shop/src/index.css                          | CSS            |          3 |          0 |          0 |          3 |
+| /Users/raxel/Projects/Escalante-RadiussNet/Webapp/radiuss-net-shop/src/main.jsx                           | JavaScript JSX |          9 |          0 |          2 |         11 |
+| /Users/raxel/Projects/Escalante-RadiussNet/Webapp/radiuss-net-shop/src/views/private/Carrito.jsx          | JavaScript JSX |         61 |          0 |          6 |         67 |
+| /Users/raxel/Projects/Escalante-RadiussNet/Webapp/radiuss-net-shop/src/views/private/Contratar.jsx        | JavaScript JSX |        118 |          0 |         18 |        136 |
+| /Users/raxel/Projects/Escalante-RadiussNet/Webapp/radiuss-net-shop/src/views/private/Inicio.jsx           | JavaScript JSX |        109 |          0 |         18 |        127 |
+| /Users/raxel/Projects/Escalante-RadiussNet/Webapp/radiuss-net-shop/src/views/private/Perfil.jsx           | JavaScript JSX |        108 |          0 |         11 |        119 |
+| /Users/raxel/Projects/Escalante-RadiussNet/Webapp/radiuss-net-shop/src/views/private/ProductoInfo.jsx     | JavaScript JSX |         94 |          0 |         16 |        110 |
+| /Users/raxel/Projects/Escalante-RadiussNet/Webapp/radiuss-net-shop/src/views/public/CrearCuenta.jsx       | JavaScript JSX |         80 |          0 |         17 |         97 |
+| /Users/raxel/Projects/Escalante-RadiussNet/Webapp/radiuss-net-shop/src/views/public/Login.jsx             | JavaScript JSX |         50 |          0 |         15 |         65 |
+| /Users/raxel/Projects/Escalante-RadiussNet/Webapp/radiuss-net-shop/src/views/public/Recuperar.jsx         | JavaScript JSX |         42 |          0 |         14 |         56 |
+| Total                                                                                                     |                |        951 |          0 |        183 |      1,134 |
++-----------------------------------------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
