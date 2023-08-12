@@ -1,7 +1,7 @@
 import React from "react";
 
 import useCarrito from "../../hooks/carrito-hook";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Carrito = () => {
   const { carrito, total, remover, limpiar } = useCarrito();
@@ -31,7 +31,7 @@ const Carrito = () => {
                 />
               </div>
               <div>
-                <p className="font-bold">{e.producto.nombre}</p>
+                <Link to={'/producto/'+e.producto.slug} className="font-bold underline hover:text-blue-500">{e.producto.nombre}</Link>
                 <p>
                   Precio unitario: <span>${e.producto.precioVenta}</span>
                 </p>

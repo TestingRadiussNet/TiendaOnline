@@ -20,6 +20,9 @@ import Perfil from "./views/private/Perfil";
 import NuevaTarjeta from "./views/private/NuevaTarjeta";
 import DetallesCompra from "./views/private/DetallesCompra";
 import MisCompras from "./views/private/MisCompras";
+import NuevaContrasena from "./views/public/NuevaContrasena";
+import MisContrataciones from "./views/private/MisContrataciones";
+import MisComprasDetalles from "./views/private/MisComprasDetalles";
 
 const App = () => {
   return (
@@ -32,6 +35,7 @@ const App = () => {
                 <Route index path="/login" Component={Login} />
                 <Route path="/crear-cuenta" Component={CrearCuenta} />
                 <Route path="/recuperar" Component={Recuperar} />
+                <Route path="/recuperar/:token" Component={NuevaContrasena}/>
               </Route>
 
               <Route path="/" element={<ContenedorPrivado />}>
@@ -43,6 +47,8 @@ const App = () => {
                 <Route path="/contratar/:id" Component={Contratar}/>
                 <Route path="/detalles-compra" Component={DetallesCompra}/>
                 <Route path="/mis-compras" Component={MisCompras}/>
+                <Route path="/mis-compras/:id" Component={MisComprasDetalles}/>
+                <Route path="/mis-contrataciones" Component={MisContrataciones}/>
               </Route>
             </Routes>
           </DetallesCompraProvider>

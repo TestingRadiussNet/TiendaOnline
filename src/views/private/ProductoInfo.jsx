@@ -81,14 +81,11 @@ const ProductoInfo = () => {
 
             {producto.disponible > 0 ? (
               <div className="flex flex-col gap-y-4 mt-4">
-                <button className="p-4 bg-blue-400 hover:bg-blue-500 text-white">
-                  Comprar ahora
-                </button>
                 <button
                   onClick={() => {
                     agregar(producto, cantidad);
                   }}
-                  className="p-4 bg-gray-400 hover:bg-gray-500 text-white"
+                  className="p-4 bg-blue-400 hover:bg-blue-500 text-white"
                 >
                   Agregar al carrito
                 </button>

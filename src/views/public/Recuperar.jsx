@@ -21,13 +21,11 @@ const Recuperar = () => {
     }
 
     try {
-      const respuesta = await axios.post(API_URL+"/autenticacion/login", {
+      const respuesta = await axios.post(API_URL+"/autenticacion/recuperar", {
         correo,
-        contrasena
       });
 
-      localStorage.setItem(LOCAL_STORAGE_KEY, respuesta.data.data.jwt);
-      navigate('/', {replace: true});
+      alert(respuesta.data['msg']);
     } catch (error) {
       alert(error.response.data['msg']);
     }

@@ -63,7 +63,6 @@ const Contratar = () => {
   }, []);
 
   async function contratar() {
-    console.log(tarjeta);
     if (meses < 0) {
         alert('Elija un número de meses superior a 0');
     } else if (!tarjeta.length) {
@@ -72,6 +71,21 @@ const Contratar = () => {
         alert('Coloque su CVV');
     } else {
         const confirmado = confirm("Desea realizar la contratación");
+
+        if (confirmado) {
+          try {
+            const respuesta = await axios.post(API_URL+"/contrataciones/"+data._id+"/"+id+"/nueva", {
+              tarjeta,
+              cvv,
+              meses
+            });
+            
+            alert(respuesta.data['msg']);
+            navigate('/', {replace: true});
+          } catch (error) {
+            alert(error.response.data['msg'] ?? "Hubo un error");
+          }
+        }
     }
   }
 
