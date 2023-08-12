@@ -112,7 +112,7 @@ const Contratar = () => {
             Precio mensual: <span className="text-green-700 font-bold">${servicio.precioMensual} MXN</span>
           </p>
           </div>
-          <div className="lg:w-1/3 flex flex-col gap-x-4">
+          <div className="lg:w-1/3 flex flex-col gap-4">
             {
                 listadoTarjetas.length == 0 ? <p>No tiene tarjetas, añada una desde su perfil.</p>
                 :
