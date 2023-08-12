@@ -112,7 +112,7 @@ const Contratar = () => {
             Precio mensual: <span className="text-green-700 font-bold">${servicio.precioMensual} MXN</span>
           </p>
           </div>
-          <div className="lg:w-1/3 flex gap-x-4">
+          <div className="lg:w-1/3 flex flex-col gap-x-4">
             {
                 listadoTarjetas.length == 0 ? <p>No tiene tarjetas, añada una desde su perfil.</p>
                 :
@@ -120,7 +120,7 @@ const Contratar = () => {
                     <select value={tarjeta} onChange={(ev) => setTarjeta(ev.target.value)} className="p-2 border-b-2 border-b-red-700">
                         {
                             listadoTarjetas.map((e, i) => (
-                                <option key={i} value={e._id}>Tarjeta terminada en {e.numeroTarjeta}</option>
+                                <option key={i} value={e._id}>Tarjeta terminada en {e.numeroTarjeta.split(" ")[3]}</option>
                             ))
                         }
                     </select>

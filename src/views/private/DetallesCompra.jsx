@@ -108,7 +108,7 @@ const DetallesCompra = () => {
             Total: <span>${calcularTotal()} MXN</span>
           </p>
 
-          <div className="my-8 mx-auto w-full flex justify-center gap-x-8">
+          <div className="my-8 mx-auto w-full flex flex-col p-2 justify-center gap-y-8">
             {listadoTarjetas.length == 0 ? (
               <p>No tiene tarjetas, añada una desde su perfil.</p>
             ) : (
